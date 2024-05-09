@@ -1,0 +1,60 @@
+.signIn-page form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 70vh;
+    width: 30vw;
+    padding: 5vh;
+    box-sizing: border-box;
+    box-shadow: 10px 15px 8px gray;
+    border-radius: 4vh;
+    background-color: rgb(212, 53, 66);
+}
+
+input {
+    outline: none;
+    padding: 5px;
+    width: 80%;
+    height: 10%;
+    margin: 5%;
+    border: none;
+    border-radius: 2vh;
+    box-shadow: 5px 5px 2px rgb(165, 60, 60);
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: medium;
+    overflow-x: hidden;
+}
+
+.card-title {
+    font-family: Avenir;
+    font-weight: 500;
+    font-size:xx-large;
+    color: aliceblue;
+}
+
+button {
+    outline: none;
+    padding: 5px;
+    width: 40%;
+    height: 10%;
+    margin: 5%;
+    border: none;
+    border-radius: 1vh;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: medium;
+    background-color: rgb(60, 96, 230);
+    color: aliceblue;
+}
+
+button:hover {
+    box-shadow: 5px 5px 2px rgb(165, 60, 60);
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.todo-home {
+    width:100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    width:100%;
+    height: 10vh;
+    background-color: rgb(50, 109, 219);
+    justify-content: center;
+    align-items: center;
+    font-family: Avenir;
+    font-weight: 800;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+#userName {
+    display: flex;
+    width: 20%;
+    height: 6%;
+    float: inline-end;
+    margin-right: 10vh;
+    margin-top: 3vh;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 2vh;
+    box-shadow: 3px 3px 3px gray;
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: medium;
+}
